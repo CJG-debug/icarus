@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: 苏同的博客
+subtitle: 有健康叫资产，没健康叫遗产
+description: 一个腹有节操的码农
 keywords:
-author: John Doe
+author: 苏同
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
