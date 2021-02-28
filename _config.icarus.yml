@@ -217,13 +217,13 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: Your name
+        author: Similar Su
         # Author title
-        author_title: Your title
+        author_title: 有健康叫资产，没健康叫遗产
         # Author's current location
-        location: Your location
+        location: 浙江温州
         # URL or path to the avatar image
-        avatar: 
+        avatar: /me.jpg
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
