@@ -195,10 +195,9 @@ donates:
         qrcode: '/img/wechatpay.png'
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
+# 分享
 share:
-    type: sharethis
-    # URL to the ShareThis share plugin script
-    install_url: ''
+    type: bdshare
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
