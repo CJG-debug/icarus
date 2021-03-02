@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>函数的重载</title>
+<script type="text/javascript">
+/*
+function sum(num1,num2){
+	return num1+num2;
+}
+
+
+function sum(num1){
+	return num1+100;
+}
+*/
+var sum=function(num1,num2){
+	return num1+num2;
+};
+
+var sum=function(num1){
+	return num1+100;
+};
+
+alert(sum(5));
+alert(sum(5,10));
+</script>
+</head>
+
+<body>
+</body>
+</html>
