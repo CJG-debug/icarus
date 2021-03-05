@@ -22,6 +22,8 @@ tags:
 - compileOnly/provided
 - runtimeOnly
 
+<!-- more -->
+
 ## 关系
 
 - A<--compile--B<--**--C
