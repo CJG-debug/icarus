@@ -7,66 +7,31 @@ categories:
 - vim
 tags:
 - vim
-- 代码块
-- 缩进
+- backspace
+- 失效
 ---
 
 ## 背景
 
 ```
-美化代码块
+vim编辑模式下backspace按键失效
 ```
 
 ## 配置
 
-请参考{% post_link vim中修改tab为4个空格 %}
-
-<!-- more -->
-
-## 示例
+**修改~/.vimrc或/etc/vim/vimrc**
 
 ```bash
-fun_print(){
-echo "我在干什么"
-echo "问你呢"
-echo "我怎么知道"    
-}
+……
+set nocompatible
+set backspace=2
+……
 ```
 
-## 缩进
+- nocompatible
+  
+  设置是否兼容
 
-**命令行模式**
-
-```bash
-:2,4>
-```
-
-**小提示：>>相当于2次缩进**
-
-**效果**
-
-```bash
-fun_print(){
-    echo "我在干什么"
-    echo "问你呢"
-    echo "我怎么知道"    
-}
-```
-
-## 回缩
-
-**命令行模式**
-
-```bash
-:2,4<
-```
-
-**效果**
-
-```bash
-fun_print(){
-echo "我在干什么"
-echo "问你呢"
-echo "我怎么知道"    
-}
-```
+- backspace
+  
+  设置可以删除字节
